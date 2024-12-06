@@ -1,6 +1,7 @@
 import React from "react";
 import { CORE_CONCEPTS } from "../data";
 import CoreConcept from './CoreConcept'
+import TabButton from "./TabButton";
 
 const Main = () => {
    return <main>
@@ -16,6 +17,15 @@ const Main = () => {
                   )
                }
             </ul>
+         </section>
+         <section id="examples">
+            <h2>Examples</h2>
+            <menu>
+               <TabButton>Components</TabButton>
+               <TabButton>JSX</TabButton>
+               <TabButton>Props</TabButton>
+               <TabButton>State</TabButton>
+            </menu>
          </section>
       </main>
 }

@@ -1,5 +1,6 @@
 import React from "react";
 import reactImage from '../assets/react-core-concepts.png'
+import './header.css'
 
 const Header = () => {
    const reactDescriptions = ['Fundamental', 'Crucial', 'Core']
